@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "PengoWay",
+    "slug": "pengoway",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMotionUsageDescription": "PengoWay uses motion activity to turn your real-world steps into journey progress."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACTIVITY_RECOGNITION"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#d9f4ff"
+      }
+    },
+    "plugins": [
+      "expo-sensors",
+      "expo-asset"
+    ]
+  }
+}
